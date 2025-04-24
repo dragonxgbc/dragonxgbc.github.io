@@ -1,0 +1,38 @@
+{
+    "":{
+        "Tired":{
+            "None": "Maybe you should go exercise! Just kidding, take it easy.",
+            "Physical": "Get some well needed rest.",
+            "Mental": "Take your time. You need to recharge.",
+            "Both": "You need to take a long break. Go for a walk, take a nap, talk to people."
+        },
+        "Did work already?":{
+            "Yes": "Good progress, keep it up.",
+            "No": "Get to work, you have a lot to do."
+        },
+        "Talked to friends? Family?":{
+            "Yes": "Good! Make sure to keep in touch!",
+            "No": "You should reach out to them, they care about you."
+        },
+        "Worked out?":{
+            "Yes": "That's great, you're actively taking care of yourself.",
+            "No": "Please, you need to take care of yourself. Your health is the most important thing. You are not a machine."
+        },
+        "Mental Health":{
+            "Well": "I'm glad you're doing well. Try to do your best, and keep moving forward.",
+            "Neutral": "Better than nothing. Try to do something that makes you happy.",
+            "Bad": "You need to take care of yourself. Please, reach out to someone you trust. You are not alone."
+        },
+        "Eating?":{
+            "Yes": "Good! Make sure to eat healthy.",
+            "No": "You need to eat. How are you supposed to function without it."
+        },
+        "Fun?":{
+            "Yes": "But it's not the same.",
+            "No": "That's okay."
+        }
+
+    }
+
+
+}
