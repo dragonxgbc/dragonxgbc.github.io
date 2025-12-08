@@ -158,17 +158,18 @@ body {
   justify-content: center;
 }
 .grid-box .image-placeholder img {
+  min-width: 500px;
   max-width: 500px;
-  width: 100%;
+  width: 500px;
   height: auto;
   border-radius: 4px;
   display: block;
   margin: 0 auto;
-  transition: transform 0.3s ease;
+  transition: transform 0.2s ease;
   cursor: pointer;
 }
 .grid-box .image-placeholder img:hover {
-  transform: scale(1.05);
+  transform: translateY(-5px);
 }
 .grid-box .image-placeholder a {
   display: block;
