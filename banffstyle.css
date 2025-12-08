@@ -89,3 +89,31 @@ body {
 .sources-dropdown ul {
   margin-left: 1em;
 }
+.content-with-image {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+.content-with-image .text-content {
+  flex: 1;
+}
+.content-with-image .image-placeholder {
+  flex: 1;
+  background: #b2dfdb;
+  border: 2px dashed #00796b;
+  border-radius: 4px;
+  padding: 3rem 2rem;
+  text-align: center;
+  color: #00695c;
+  font-style: italic;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 768px) {
+  .content-with-image {
+    flex-direction: column;
+  }
+}
