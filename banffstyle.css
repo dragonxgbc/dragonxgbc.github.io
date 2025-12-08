@@ -158,10 +158,12 @@ body {
   justify-content: center;
 }
 .grid-box .image-placeholder img {
-  max-width: 100%;
+  max-width: 500px;
+  width: 100%;
   height: auto;
   border-radius: 4px;
   display: block;
+  margin: 0 auto;
 }
 @media (max-width: 900px) {
   .grid-container {
