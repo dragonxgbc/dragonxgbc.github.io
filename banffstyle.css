@@ -157,6 +157,12 @@ body {
   align-items: center;
   justify-content: center;
 }
+.grid-box .image-placeholder img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
 @media (max-width: 900px) {
   .grid-container {
     grid-template-columns: 1fr;
