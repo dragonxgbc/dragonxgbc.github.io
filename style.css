@@ -102,6 +102,11 @@ body {
   padding: 1.5rem;
   border-radius: 4px;
   margin-bottom: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.coursework-item:hover {
+  transform: translateY(-5px);
 }
 
 .coursework-item h4 {
