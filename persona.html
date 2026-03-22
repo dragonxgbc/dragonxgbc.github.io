@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona/Archetype</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Droid+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="banffstyle.css">
+    <style>
+        .video-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .description {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: #e0f2f1;
+            border-radius: 8px;
+        }
+        .description h3 {
+            color: #004d40;
+            margin-bottom: 1rem;
+        }
+        .description p {
+            line-height: 1.8;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+      <h1>Persona/Archetype</h1>
+    </header>
+
+    <section id="hero" class="hero">
+      <h2>Persona/Archetype Study</h2>
+      <p>Exploring the persona of a jaded young man, focusing on men's mental health and growing apathy for society.</p>
+    </section>
+
+    <main>
+      <div class="video-container">
+        <div class="video-wrapper">
+          <iframe src="https://www.youtube.com/embed/yzfPzVFKDC4" 
+                  title="Persona/Archetype Video" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <div class="description">
+        <h3>About This Project</h3>
+        <p>
+            This video project delves into the persona of a jaded young man, capturing his internal struggles with mental health and his growing sense of apathy towards society. I wanted to show visual storytelling by using the rain, the dim lighting, and the idea of walls closing in to represent the mental state that many young men face today.
+            The project aims to shed light on the often overlooked emotional experiences of men, highlighting the importance of mental health awareness and the societal pressures that contribute to feelings of isolation and detachment.
+        </p>
+      </div>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <h3>Made by Brandon P.</h3>
+      <p>Email: dragonxbc@gmail.com</p>
+      <p><a href="index.html">Return to Homepage</a></p>
+    </footer>
+  </body>
+</html>
